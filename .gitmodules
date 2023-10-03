@@ -1,0 +1,6 @@
+[submodule "hugo-theme-farallon"]
+	path = hugo-theme-farallon
+	url = git@github.com:bigfa/hugo-theme-farallon.git
+[submodule "themes/hugo-theme-farallon"]
+	path = themes/hugo-theme-farallon
+	url = git@github.com:bigfa/hugo-theme-farallon.git
