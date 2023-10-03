@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://hugo-macinblog.pages.dev/'
 languageCode = 'en-us'
 title = 'Macin'
 theme = "hugo-theme-farallon"
