@@ -2,3 +2,29 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Macin'
 theme = "hugo-theme-farallon"
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "首页"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "文章"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "标签"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "分类"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"
+[[menu.main]]
+  name = "关于"
+  weight = 50
+  identifier = "about"
+  url = "/about/" 
