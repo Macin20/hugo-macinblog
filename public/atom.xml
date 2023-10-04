@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 04 Oct 2023 00:07:40 +0800</lastBuildDate><atom:link href="/atom.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test2</title>
+      <link>/post/test2/</link>
+      <pubDate>Wed, 04 Oct 2023 00:07:40 +0800</pubDate>
+      
+      <guid>/post/test2/</guid>
+      <description>这是另外的测试内容。
+标题这是我的标题
+电脑我的苹果电脑</description>
+    </item>
+    
+    <item>
+      <title>测试文档</title>
+      <link>/post/test/</link>
+      <pubDate>Tue, 03 Oct 2023 23:39:42 +0800</pubDate>
+      
+      <guid>/post/test/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Tue, 03 Oct 2023 23:33:47 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>这里是关于页面。</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -16,6 +16,12 @@ description = "minimalist"
 [outputs]
   home = ['HTML', 'JSON', 'RSS']
 
+# 默认 Hugo 生成的 RSS 链接为 /index.xml ，而我之前用的是 /atom.xml
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss"
+baseName = "atom"
+
 [Params]
   search=true
   toc = true
