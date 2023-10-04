@@ -1,30 +1,53 @@
-baseURL = 'https://hugo-macinblog.pages.dev/'
+homepage = "https://hugo-macinblog.pages.dev/"
 languageCode = 'zh-cn'
-title = 'Macin'
-theme = "hugo-theme-farallon"
+name = "Macin"
+theme = 'farallon'
+features = ["minimalist"]
+min_version = "0.75.0"
 
-[[menu.main]]             # config your menu              # 配置目录
-  name = "首页"
-  weight = 10
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "文章"
-  weight = 20
-  identifier = "archives"
-  url = "/post/"
-[[menu.main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-[[menu.main]]
-  name = "分类"
-  weight = 40
-  identifier = "categories"
-  url = "/categories/"
-[[menu.main]]
-  name = "关于"
-  weight = 50
-  identifier = "about"
-  url = "/about/" 
+license = "MIT"
+description = "minimalist"
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+  series = 'series'
+
+[outputs]
+  home = ['HTML', 'JSON', 'RSS']
+
+[Params]
+  search=true
+  toc = true
+  since = '2017'
+
+[menu]
+  [[menu.main]]
+  name="文章"
+  url="/post/"
+  weight="1"  
+  [[menu.main]]
+  name="分类"
+  url="/categories/"
+  weight="2"  
+  [[menu.main]]
+  name="标签"
+  url="/tags/"
+  weight="3"  
+  [[menu.main]]
+  name="足迹"
+  url="/about/"
+  weight="4"  
+  [[menu.main]]
+  name="关于"
+  url="/about/"
+  weight="5"
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+  filename = 'sitemap.xml'
+
+[author]
+  name = 'Macin CHEN'
+  homepage = "https://macin.org"
